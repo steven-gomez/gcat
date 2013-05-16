@@ -74,7 +74,11 @@ $ cd gcat/
 $ [sudo] pip install -e .
 ````
 
-A word of warning that this installs [pandas](http://pandas.pydata.org/) which depends on numpy 1.6, which often cannot be easily updated using pip.  See [this stackoverflow post](http://stackoverflow.com/questions/12436979/how-to-fix-python-numpy-pandas-installation) for a solution.
+A word of warning that this installs [pandas](http://pandas.pydata.org/) which depends on numpy 1.6, which often cannot be easily updated using pip.  See [this stackoverflow post](http://stackoverflow.com/questions/12436979/how-to-fix-python-numpy-pandas-installation) for a solution.  gcat also depends on openpyxl to interact with .xlsx files.  It can be install with pip like this:
+
+````bash
+$ pip install openpyxl
+````
 
 ### Google Drive SDK
 In order to actually use the tool to access the document however, you'll need to first

@@ -13,7 +13,7 @@ else:
 setup(
     name='gcat',
     version='0.1.0',
-    description='OAuth wrapper and command line utility for interacting with Google Drive spreasheets',
+    description='OAuth wrapper and command line utility for interacting with Google Drive spreadsheets',
     long_description=long_desc,
     url='http://www.github.com/embr/gcat',
     author='Evan Rosen',
